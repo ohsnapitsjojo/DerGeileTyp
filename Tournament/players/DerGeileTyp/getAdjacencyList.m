@@ -2,7 +2,10 @@ function [adjacencyList, len] = getAdjacencyList( b,color )
 % Gibt eine Liste zurück mit Feldern die frei sind und an gegnerische
 % Steine angrenzen
     opponent = -1*(color);
-    bpad = padarray(b,[1,1]);
+    
+    bpad = zeros(10);
+    bpad(2:9,2:9) = b;
+    
     adjacencyList = [];
     listElement = 1;
     len = 0;
