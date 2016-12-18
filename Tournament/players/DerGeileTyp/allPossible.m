@@ -6,24 +6,24 @@ function possible = allPossible( b, color )
 % -Feld grenzt an gegn. Stein
 % -Stein dreht Steine um
 
-eColor = -color;
+opponent = -color;
 kernel1 = ones(3,3);
-
-
+mapIdx = 1:64;
 
 % Matrix mit freien Felder
 emptyFields = b==0;
 
 % Matrix mit Feldern, angrenzend an gegn. Steinen
-enemyFields = double(b==eColor);
+enemyFields = double(b==opponent);
 adjacentFields = conv2(enemyFields, kernel1, 'same');
 adjacentFields = adjacentFields ~= 0;
 
-adjacencyList = find(adjacentFields == emptyFields);
+adjacencyList = mapIdx(adjacentFields == emptyFields);
 
 possible= [];
 
-n = size(find(adjacencyList),1)
+n = length(adjacencyList);
+
     for idx = 1:n
         move = adjacencyList(idx);
         if checkFlip(b,color,move)
