@@ -4,9 +4,9 @@ function [flag] = checkFlipDirection(b,color,move,direction)
 % direction
     flag = false;
     opponentFound = false;  % Bezeichnet das finden eines Gegnerischen steines in der untersuchten linie
-    opponent = -1*color;
     
-    [x,y] = idx2xy(move);
+x=move(1);
+y=move(2);
     
     while 0<x && x<9 && 0<y && y<9 
         x = x + direction(1);
@@ -21,7 +21,7 @@ function [flag] = checkFlipDirection(b,color,move,direction)
             break;
         end
 
-        if b(y,x) == opponent && ~opponentFound     % Finde gegnerischen Stein im Pfad
+        if b(y,x) == -color && ~opponentFound     % Finde gegnerischen Stein im Pfad
             opponentFound = true;
         end
         if b(y,x) == color && ~opponentFound        % Es gibt keinen gültigen pfad und es werden keine Steine geflippt 
@@ -34,5 +34,3 @@ function [flag] = checkFlipDirection(b,color,move,direction)
         end
     end 
 end
-
-
