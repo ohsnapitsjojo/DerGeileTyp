@@ -5,33 +5,19 @@ function possible = allPossible( b, color )
 % -Feld ist frei,
 % -Feld grenzt an gegn. Stein
 % -Stein dreht Steine um
-tic;
-opponent = -color;
-kernel1 = ones(3,3);
+% profile on; profile clear;
 mapIdx = 1:64;
 
 % Matrix mit freien Felder
-emptyFields = b==0;
 
 % Matrix mit Feldern, angrenzend an gegn. Steinen
-enemyFields = double(b==opponent);
-adjacentFields = conv2(enemyFields, kernel1, 'same');
-adjacentFields = adjacentFields ~= 0;
-
-adjacencyList = mapIdx(adjacentFields == emptyFields);
 
 
+adjacencyList = mapIdx((conv2(double(b==-color), ones(3), 'same')~= 0) == (b==0));
 
-n = length(adjacencyList);
-possible= zeros(1,n);
-
-    for idx = 1:n
-        move = adjacencyList(idx);
-        if checkFlip(b,color,move)
-            possible(idx) = move;    % Ein Stein darf an Position move gelegt werden
-        end   
-    end
+flag=checkFlip(b,color,adjacencyList);
+possible=flag.*adjacencyList;
     possible(possible==0)=[];
-    toc;
+%     profile report;
 end
 
