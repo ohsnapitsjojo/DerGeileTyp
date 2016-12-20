@@ -5,7 +5,7 @@ function possible = allPossible( b, color )
 % -Feld ist frei,
 % -Feld grenzt an gegn. Stein
 % -Stein dreht Steine um
-
+tic;
 opponent = -color;
 kernel1 = ones(3,3);
 mapIdx = 1:64;
@@ -20,15 +20,18 @@ adjacentFields = adjacentFields ~= 0;
 
 adjacencyList = mapIdx(adjacentFields == emptyFields);
 
-possible= [];
+
 
 n = length(adjacencyList);
+possible= zeros(1,n);
 
     for idx = 1:n
         move = adjacencyList(idx);
         if checkFlip(b,color,move)
-            possible = [possible, move];    % Ein Stein darf an Position move gelegt werden
+            possible(idx) = move;    % Ein Stein darf an Position move gelegt werden
         end   
     end
+    possible(possible==0)=[];
+    toc;
 end
 
