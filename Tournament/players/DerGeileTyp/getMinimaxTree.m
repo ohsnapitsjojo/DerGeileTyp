@@ -78,6 +78,8 @@ function [ Nodes] = getMinimaxTree( b,color,depth,w)
                 if Nodes(nNodes).Depth == depth
                     Nodes(nNodes).isLeaf = true;
                     Nodes(nNodes).Heueristic = w(1)* hCoinParity(Nodes(nNodes).b,Nodes(nNodes).Color);
+                    % TODO wie werden die Züge bewertet? Aus wessen Sicht?
+                    %Nodes(nNodes).Heueristic = w(1)* hCoinParity(Nodes(nNodes).b,color);
                     Nodes(nNodes).nChildren = 0;     % Leafs haben keine Children
                 % Node ist kein Leaf Node
                 else
