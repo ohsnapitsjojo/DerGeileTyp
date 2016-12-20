@@ -6,18 +6,15 @@ function possible = allPossible( b, color )
 % -Feld grenzt an gegn. Stein
 % -Stein dreht Steine um
 % profile on; profile clear;
+
 mapIdx = 1:64;
 
 % Matrix mit freien Felder
-
 % Matrix mit Feldern, angrenzend an gegn. Steinen
 
-
 adjacencyList = mapIdx((conv2(double(b==-color), ones(3), 'same')~= 0) == (b==0));
-
 flag=checkFlip(b,color,adjacencyList);
-possible=flag.*adjacencyList;
-    possible(possible==0)=[];
-%     profile report;
+possible=adjacencyList(flag);
+% profile report;
 end
 
