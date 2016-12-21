@@ -3,7 +3,7 @@ function [flag] = checkFlip(b, color, move )
 % gegnerischer Stein geflippt wird
 
     directions = {[0,-1] [1,1] [0,1] [1,-1] [-1,0] [-1,-1] [1, 0] [-1,1]};  % Mögliche 8 Richtungen 
-    flag = logical(zeros(1,length(move)));
+    flag = false(1,length(move));
     for id = 1:length(move)
     b(id) = color;    % Spielbrett aktualiesieren
     
