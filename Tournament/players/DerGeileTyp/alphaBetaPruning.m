@@ -1,13 +1,12 @@
 function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, toplayer )
-%ALPHABETAPRUNING Summary of this function goes here
-%   Detailed explanation goes here
+
     m = [];
     possMoves = allPossible(b, turn);
     nMoves = length(possMoves);
 
     % Wenn Leaf, dann Heuristic zurückgeben
     if depth == 0 || nMoves == 0
-        v = getHeuristic( b, w, color )
+        v = getHeuristic( b, w, color );
         % TODO: HEURISTIC HIER EINSETZEN
         return 
     end
