@@ -1,0 +1,157 @@
+DerGeileTyp against MiniMaxPlayer:
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+MiniMaxPlayer (-1) to move (time left: 180.0 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+DerGeileTyp (1) to move (time left: 180.0 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     1     0     0     0     0     0
+     0     0    -1     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+MiniMaxPlayer (-1) to move (time left: 179.9 sec.):
+     0     0     0     0     0     0     0     0
+     0     0    -1     0     0     0     0     0
+     0     0    -1     0     0     0     0     0
+     0     0    -1     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+DerGeileTyp (1) to move (time left: 180.0 sec.):
+     0     0     0     0     0     0     0     0
+     0     1    -1     0     0     0     0     0
+     0     0     1     0     0     0     0     0
+     0     0    -1     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+MiniMaxPlayer (-1) to move (time left: 179.8 sec.):
+     0     0     0     0     0     0     0     0
+     0     1    -1     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+DerGeileTyp (1) to move (time left: 179.9 sec.):
+     0     0     0     0     0     0     0     0
+     0     1    -1     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+     0     0     1    -1    -1     0     0     0
+     0     0     1     1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+<a href="matlab: opentoline('C:\Program Files\MATLAB\R2016a\toolbox\matlab\graphics\findall.m',23,1)">23  </a>if ~isa(HandleList,'matlab.graphics.Graphics') && nnz(~ishghandle(HandleList))
+if system_dependent('IsDebugMode')==1, dbquit; end
+a =     [ 1     0     1     0     1     0    -1     0;
+    -1    -1    -1     1    -1    -1    -1     0;
+     0     0     1     0     1     0    -1     0;
+    -1     1    -1    -1    -1     1    -1     1;
+    -1     0     0    -1    -1     0     1     0;
+    -1     0     0     0    -1     0    -1     1;
+     0     0     0     0    -1    -1     0     0;
+     0     0     0     0    -1     0    -1     0]
+
+a =
+
+     1     0     1     0     1     0    -1     0
+    -1    -1    -1     1    -1    -1    -1     0
+     0     0     1     0     1     0    -1     0
+    -1     1    -1    -1    -1     1    -1     1
+    -1     0     0    -1    -1     0     1     0
+    -1     0     0     0    -1     0    -1     1
+     0     0     0     0    -1    -1     0     0
+     0     0     0     0    -1     0    -1     0
+
+alphaBeta(a, -1, 1, 1)
+
+ans =
+
+    -1
+
+ b = simulateMove(a,-1,-1)
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('simulateMove', 'C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m', 7)" style="font-weight:bold">simulateMove</a> (<a href="matlab: opentoline('C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m',7,0)">line 7</a>)
+    b(y,x) = color;                                 % Setzt deinen Stein
+} 
+allPossible(a, -1)
+
+ans =
+
+   Empty matrix: 1-by-0
+
+alphaBeta(a, -1, 1, 1)
+
+ans =
+
+     []
+
+b = simulateMove(a,-1,-1)
+{Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('simulateMove', 'C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m', 7)" style="font-weight:bold">simulateMove</a> (<a href="matlab: opentoline('C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m',7,0)">line 7</a>)
+    b(y,x) = color;                                 % Setzt deinen Stein
+} 
+b = simulateMove(a,-1,[])
+{Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('checkFlipDirection', 'C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\checkFlipDirection.m', 11)" style="font-weight:bold">checkFlipDirection</a> (<a href="matlab: opentoline('C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\checkFlipDirection.m',11,0)">line 11</a>)
+    while 0<x && x<9 && 0<y && y<9
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('simulateMove', 'C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m', 14)" style="font-weight:bold">simulateMove</a> (<a href="matlab: opentoline('C:\Users\Huynh\Documents\GitHub\DerGeileTyp\Tournament\players\DerGeileTyp\simulateMove.m',14,0)">line 14</a>)
+        if checkFlipDirection(b,color,move,direction)
+} 
+[] == []
+
+ans =
+
+     []
+
+isempty([])
+
+ans =
+
+     1
+
+b = simulateMove(a,-1,[])
+
+b =
+
+     1     0     1     0     1     0    -1     0
+    -1    -1    -1     1    -1    -1    -1     0
+     0     0     1     0     1     0    -1     0
+    -1     1    -1    -1    -1     1    -1     1
+    -1     0     0    -1    -1     0     1     0
+    -1     0     0     0    -1     0    -1     1
+     0     0     0     0    -1    -1     0     0
+     0     0     0     0    -1     0    -1     0
+
+tournament_main

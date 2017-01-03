@@ -1,7 +1,7 @@
 function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, toplayer )
 %ALPHABETAPRUNING Summary of this function goes here
 %   Detailed explanation goes here
-    m = -1;
+    m = [];
     possMoves = allPossible(b, turn);
     nMoves = length(possMoves);
 

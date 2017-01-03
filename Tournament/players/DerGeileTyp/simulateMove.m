@@ -1,5 +1,8 @@
 function b  = simulateMove( b, color, move )
 % Simuliert das Ergebniss eines Zuges move
+    if isempty(move)
+        return 
+    end
     directions = {[0,-1] [1,1] [0,1] [1,-1] [-1,0] [-1,-1] [1, 0] [-1,1]};
     
     [x, y] = idx2xy(move);
