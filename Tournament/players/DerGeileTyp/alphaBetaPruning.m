@@ -7,7 +7,7 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
 
     % Wenn Leaf, dann Heuristic zurückgeben
     if depth == 0 || nMoves == 0
-        v =(w(1)* hCoinParity(b,turn));
+        v =(w(1)* hCoinParity(b,color));
         % TODO: HEURISTIC HIER EINSETZEN
         return 
     end
@@ -36,15 +36,14 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
               break;
            end
 
-           return
        end
-       
+       return
     else
         v = inf;
         
         for k=1:nMoves
            bNew = simulateMove(b, turn, possMoves(k));
-           [vNew, ~] = alphaBetaPruning(bNew, depth-1, alpha, beta, color, turn*-1, w, false);
+           [vNew, ~] = alphaBetaPruning(bNew, depth-1, alpha, beta, color, turn, w, false);
            v = min(v, vNew);
            if beta > v
               beta = v;
@@ -62,8 +61,9 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
               break;
            end
 
-           return
+           
        end
+       return
     end
     
     
