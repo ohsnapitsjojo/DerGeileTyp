@@ -5,11 +5,15 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
     possMoves = allPossible(b, turn);
     nMoves = length(possMoves);
 
+    % Wenn Leaf, dann Heuristic zurückgeben
     if depth == 0 || nMoves == 0
         v =(w(1)* hCoinParity(b,turn));
+        % TODO: HEURISTIC HIER EINSETZEN
         return 
     end
 
+    % Wenn Max Layer, dann v Werte berechnen und mit Alpha Werte
+    % abgleichen. Größerer Wert wird übernommen
     if turn == color
        v = -inf;
 
@@ -20,11 +24,15 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
            if alpha < v
               alpha = v;
               if toplayer == true
+                % Wenn toplayer und Alpha wert wird upgedatet -> Zug
+                % zurückgeben.
                 m = possMoves(k);
               end
            end
 
            if beta <= alpha
+               % Ast musst nicht weiter betrachtet werden sobald 
+               % beta <= alpha
               break;
            end
 
@@ -41,12 +49,16 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
            if beta > v
               beta = v;
               if toplayer == true
+                % Wenn toplayer und Beta wert wird upgedatet -> Zug
+                % zurückgeben.
                 m = possMoves(k);
               end
     
            end
 
            if beta <= alpha
+               % Ast musst nicht weiter betrachtet werden sobald 
+               % beta <= alpha
               break;
            end
 

@@ -4,7 +4,8 @@ function b = DerGeileTyp(b,color,t)
     w = [1 10 100 1];
    
     
-    move = greedyAgent(b,color,w,'h');
+    %move = greedyAgent(b,color,w,'h');
+    move = alphaBeta( b, color, 3, w );
     
     if ~isempty(move)
         b = simulateMove(b,color,move); 
