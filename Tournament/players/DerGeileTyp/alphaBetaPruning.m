@@ -1,5 +1,4 @@
 function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, toplayer )
-
     m = [];
     possMoves = allPossible(b, turn);
     nMoves = length(possMoves);
@@ -54,9 +53,9 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
     
            end
 
-           if beta <= alpha
+           if beta >= alpha
                % Ast musst nicht weiter betrachtet werden sobald 
-               % beta <= alpha
+               % beta >= alpha
               break;
            end
 
@@ -67,6 +66,5 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
     
     
 
-    
 end
 
