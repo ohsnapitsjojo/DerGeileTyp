@@ -5,9 +5,13 @@ function [flag] = checkFlipDirection(b,color,move,direction)
     flag = false;
     opponentFound = false;  % Bezeichnet das finden eines Gegnerischen steines in der untersuchten linie
     opponent = -1*color;
-    
-    [x,y] = idx2xy(move);
-    
+    %% Berechnung ohne Funktionaufruf über idx2xy ca 33% schneller
+    x = ceil(index/8);
+    y = mod(index,8);
+    if(y==0)
+        y = 8;
+    end
+    %%
     while 0<x && x<9 && 0<y && y<9 
         x = x + direction(1);
         y = y + direction(2);
