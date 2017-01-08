@@ -54,9 +54,9 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
     
            end
 
-           if beta >= alpha
+           if beta <= alpha
                % Ast musst nicht weiter betrachtet werden sobald 
-               % beta >= alpha
+               % beta <= alpha
               break;
            end
 
