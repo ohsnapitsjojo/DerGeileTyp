@@ -1,6 +1,6 @@
 function [ winner ] = getWinner( b )
 % get Winner
-% returns winner, if no winner -> return 0
+% returns winner, if no winner -> returns 0
     nMove1 = allPossible(b, -1);
     nMove2 = allPossible(b, 1);
     
