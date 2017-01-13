@@ -1,4 +1,4 @@
-function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, toplayer )
+function [ v, m ] = JalphaBetaPruning( b, depth, alpha, beta, color, turn, w, toplayer )
 
     m = [];
     possMoves = allPossible(b, turn);
@@ -6,7 +6,7 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
 
     % Wenn Leaf, dann Heuristic zurückgeben
     if depth == 0 || nMoves == 0
-        v = getHeuristic( b, w, color );
+        v = JgetHeuristic( b, w, color );
         % TODO: HEURISTIC HIER EINSETZEN
         return 
     end
@@ -18,7 +18,7 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
 
        for k=1:nMoves
            bNew = simulateMove(b, turn, possMoves(k));
-           [vNew, ~] = alphaBetaPruning(bNew, depth-1, alpha, beta, color, turn*-1, w, false);
+           [vNew, ~] = JalphaBetaPruning(bNew, depth-1, alpha, beta, color, turn*-1, w, false);
            v = max(v, vNew);
            if alpha < v
               alpha = v;
@@ -42,7 +42,7 @@ function [ v, m ] = alphaBetaPruning( b, depth, alpha, beta, color, turn, w, top
         
         for k=1:nMoves
            bNew = simulateMove(b, turn, possMoves(k));
-           [vNew, ~] = alphaBetaPruning(bNew, depth-1, alpha, beta, color, turn, w, false);
+           [vNew, ~] = JalphaBetaPruning(bNew, depth-1, alpha, beta, color, turn, w, false);
            v = min(v, vNew);
            if beta > v
               beta = v;
