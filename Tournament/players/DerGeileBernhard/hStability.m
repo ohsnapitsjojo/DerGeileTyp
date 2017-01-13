@@ -1,13 +1,21 @@
 function [ stability ] = hStability( b,color )
 %% TODO implement
     % Es gibt nur positive stability Werte
-    load('Accountability.mat');
+    % Berechnet die statische gewichtung der einzelnen Steine
+    
+    
+   aMap = [100.0000     13.3333     40.0000     38.6667     38.6667     40.0000     13.3333     100.0000;...
+           13.3333      0           30.3333     30.0000     30.0000     30.3333     0           13.3333;...
+           40.0000      30.3333     33.5333     33.4000     33.4000     33.5333     30.3333     40.0000;...
+           38.6667      30.0000     33.4000     33.6667     33.6667     33.4000     30.0000     38.6667;...
+           38.6667      30.0000     33.4000     33.6667     33.6667     33.4000     30.0000     38.6667;...
+           40.0000      30.3333     33.5333     33.4000     33.4000     33.5333     30.3333     40.0000;...
+           13.3333      0           30.3333     30.0000     30.0000     30.3333     0           13.3333;...
+           100.0000     13.3333     40.0000     38.6667     38.6667     40.0000     13.3333     100.0000];
     opponent = -1*color;     
-    stabilityPlayer = sum(aMap(find(b==color)));
-    stabilityOpponent = sum(aMap(find(b==opponent)));
-    
+    stabilityPlayer = sum(aMap(b==color));
+    stabilityOpponent = sum(aMap(b==opponent));
     totalStability = stabilityPlayer + stabilityOpponent;
-    
     diffStability = stabilityPlayer-stabilityOpponent;
     stability = 100*diffStability/totalStability;
 
