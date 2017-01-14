@@ -4,6 +4,8 @@ function [ mobility ] = hMobility( b, color )
 % Worst cast -100
     opponent = color*-1;
     
+    
+    
     mobilityPlayer = length(allPossible(b,color));
     mobilityOpponent = length(allPossible(b,opponent));
     

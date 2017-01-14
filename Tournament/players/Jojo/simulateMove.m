@@ -5,14 +5,14 @@ function b  = simulateMove( b, color, move )
     end
     directions = {[0,-1] [1,1] [0,1] [1,-1] [-1,0] [-1,-1] [1, 0] [-1,1]};
     
-    [x, y] = Jidx2xy(move);
+    [x, y] = idx2xy(move);
     
     b(y,x) = color;                                 % Setzt deinen Stein
     
     for idx = 1:length(directions)
         
         direction = directions{idx};
-        [x, y] = Jidx2xy(move);
+        [x, y] = idx2xy(move);
 
         if checkFlipDirection(b,color,move,direction) 
              while 0<x && x<9 && 0<y && y<9 
