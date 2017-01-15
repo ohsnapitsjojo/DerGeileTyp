@@ -1,10 +1,11 @@
-function [ move, minimax ] = forceMoves( b, color, possible)
+function [ move] = forceMoves( b, color, possible)
 % Diese funktion beinhalte Force Moves die höhere Priorität als ein Minimax
 % Zug Haben:
 % 1) Stein in die Ecke legen wenn sie Frei ist
 % 2) Stein niemals vor ein Ecke legen wenn möglich
-% Move gibt entweder den Force Corner Zug Zurück, oder eine Liste ohne
-% Close Corner Züge
+% move = [MOVE] wird forciert
+% move = [] wird minimax Zug
+
     try
         move = [];
         % Nachschauen ob Corners frei sind
@@ -12,7 +13,6 @@ function [ move, minimax ] = forceMoves( b, color, possible)
         isAvoid = possible == 10 | possible == 15| possible == 50 | possible == 55;
         if any(isCorner)
         % Force Corners
-            minimax = false;
             move = possible(isCorner);
             % Falls mehr als ein Corner möglich ist
             nMoves = length(move);
@@ -28,27 +28,28 @@ function [ move, minimax ] = forceMoves( b, color, possible)
         elseif any(isAvoid) && ~any(isCorner)
         % Avoid Close Corners
             % Gibt alle Züge zurück die genehmigt sind
-            minimax = true;
             move = possible(~isAvoid);
-            % Falls kein Züge möglich sind ohne nahe an Ecken zu setzen
             nMoves = length(move);
+            % Falls kein Züge möglich sind ohne nahe an Ecken zu setzen
             if nMoves == 0
-                minimax = false;
+                % Setze nahe einer Ecke
                 move = possible;
-                nStable = zeros(1,nMoves);
-                for idx = 1:nMoves
-                    nStable(idx) = getnStable(simulateMove(b,color,move(idx)),color);
-                end
-                % Wähle Zug der die meisten Stabilen Steine erzeugt
-                [~,id] = max(nStable);
-                move = move(id);
+                nMoves=length(move);
+            end  
+            % Wähle Zug der die beste heuersitic bringt
+            nStable = zeros(1,nMoves);
+            for idx = 1:nMoves
+                nStable(idx) = getHeuristic(simulateMove(b,color,move(idx)),[0 1 0 1],color);
+                % KRITERIUM KANN VERÄNDERT WERDEN
             end
+            [~,id] = max(nStable);
+            move = move(id);
+            
         end
     catch ME
         warning(ME.message);
         warning('Ein Fehler ist is forceMoves aufgetreten, führe Minimax Zug aus!');
         move = [];
-        minimax = true;
     end
 end
 
