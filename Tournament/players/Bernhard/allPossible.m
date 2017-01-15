@@ -12,7 +12,7 @@ function possible = allPossible( b, color )
     % Matrix mit freien Felder
     % Matrix mit Feldern, angrenzend an gegn. Steinen
 
-    adjacencyList = mapIdx((conv2(double(b==-color), ones(3), 'same')~= 0) == (b==0));
+    adjacencyList = mapIdx((conv2(double(b==-color), ones(3), 'same')~= 0) & (b==0));
     flag=checkFlip(b,color,adjacencyList);
     possible=adjacencyList(flag);
     % profile report;

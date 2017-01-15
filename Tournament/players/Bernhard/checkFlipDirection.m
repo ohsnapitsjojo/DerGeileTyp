@@ -7,10 +7,8 @@ function [flag] = checkFlipDirection(b,color,move,direction)
     opponent = -1*color;
     %% Berechnung ohne Funktionaufruf über idx2xy ca 33% schneller
     x = ceil(move/8);
-    y = mod(move,8);
-    if(y==0)
-        y = 8;
-    end
+    y = mod(move-1,8)+1;
+
     %%
     while 0<x && x<9 && 0<y && y<9 
         x = x + direction(1);

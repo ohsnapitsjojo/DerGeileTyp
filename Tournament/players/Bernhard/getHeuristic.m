@@ -1,7 +1,6 @@
 function [ h ] = getHeuristic( b, w, color )
-%GETHEURISTIC Summary of this function goes here
-%   Calculate final Heurisitic
-    winner = getWinner(b);
+%  Calculate final Heurisitic
+       winner = getWinner(b);
     if winner == -color
         h = -inf;
     elseif winner == color

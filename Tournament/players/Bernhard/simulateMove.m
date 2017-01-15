@@ -18,6 +18,7 @@ function b  = simulateMove( b, color, move )
              while 0<x && x<9 && 0<y && y<9 
                 x = x + direction(1);
                 y = y + direction(2);
+                
                 if x<1 || y<1 || 8<x || 8<y         % Failsafe für Indexfehler
                     break;
                 end	
