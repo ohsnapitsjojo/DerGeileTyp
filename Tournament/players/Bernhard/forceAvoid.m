@@ -1,10 +1,15 @@
 function [ move] = forceAvoid(b,color,possible,move)
 
     try
-        Avoid = move == 10 | move == 15| move == 50 | move == 55;
-        if Avoid  
+        
+        Avoid = [move == 10  move == 15 move == 50  move == 55];
+        openCorners = [b(1,1) == 0, b(8,1) == 0, b(1,8) == 0 , b(8,8) == 0];
+        if any(Avoid & openCorners)  
         % Avoid Close Corners
-            isAvoid = possible == 10 | possible == 15| possible == 50 | possible == 55;
+            closeCorners = [10,15,50,55];
+            avoidMoves = closeCorners(openCorners);
+            % Alle close Corners zu freien Ecken vermeiden
+            isAvoid = ismember(possible,avoidMoves);
             % Gibt alle Züge zurück die genehmigt sind
             moves = possible(~isAvoid);
             nMoves = length(moves);

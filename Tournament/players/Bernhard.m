@@ -27,6 +27,9 @@ function [ b] = Bernhard( b,color,t)
             move = alphaBeta( b, color, depth, w );
         end
         % Führt Avoid Move für Close Corners aus wenn möglich
+        
+        % Schneided minimal Schlechter ab gegen Testspieler aber erhöht die
+        % effektivität geggen extrem gute gegner
         move = forceAvoid(b,color,possible,move);
 
         % Fehlerbehebung wenn möglicher Zug nicht erkannt wird
