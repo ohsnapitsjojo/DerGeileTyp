@@ -16,21 +16,19 @@ function [ b] = Bernhard( b,color,t)
     % Statische Gewichtung für Züge
     
     try
-        %Force Corners
-        %Avoid Close Corners
-        [possible, minimax] = forceMoves(b,color,possible);
+        % Führt Force Move auf Corner aus wenn möglich
+        move = forceCorners(b,color,possible);
         
-        if ~minimax
-        %Force Corners
-            move = possible;
-        else
+        if isempty(move)
         % Minimax Zug
             [w,depth] = strategy(b);
             %w = [1 10 0 20];
             %depth = 5;
             move = alphaBeta( b, color, depth, w );
         end
-        
+        % Führt Avoid Move für Close Corners aus wenn möglich
+        move = forceAvoid(b,color,possible,move);
+
         % Fehlerbehebung wenn möglicher Zug nicht erkannt wird
         if ~isempty(possible) && isempty(move)
             [~,ind] = max(aMap(possible));
