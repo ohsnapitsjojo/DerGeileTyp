@@ -1,1 +1,0 @@
-2017-01-03 14:38:43	MiniMaxPlayer	64	DerGeileTyp	0	Subscript indices must either be real positive integers or logicals.

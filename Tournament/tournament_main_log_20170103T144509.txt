@@ -1,2 +1,0 @@
-2017-01-03 14:45:09	MiniMaxPlayer	23	DerGeileTyp	41	Game over.
-2017-01-03 14:46:04	DerGeileTyp	27	MiniMaxPlayer	37	Game over.
