@@ -13,7 +13,7 @@ function [ v, m ] = JalphaBetaPruning( b, depth, alpha, beta, color, turn, w, to
 
     % Wenn Max Layer, dann v Werte berechnen und mit Alpha Werte
     % abgleichen. Größerer Wert wird übernommen
-    if turn == color
+    if ((turn == color  && nMoves~=0)||(turn== -color && nMoves==0))
        v = -inf;
 
        for k=1:nMoves
@@ -42,7 +42,7 @@ function [ v, m ] = JalphaBetaPruning( b, depth, alpha, beta, color, turn, w, to
         
         for k=1:nMoves
            bNew = simulateMove(b, turn, possMoves(k));
-           [vNew, ~] = JalphaBetaPruning(bNew, depth-1, alpha, beta, color, turn, w, false);
+           [vNew, ~] = JalphaBetaPruning(bNew, depth-1, alpha, beta, color, turn*-1, w, false);
            v = min(v, vNew);
            if beta > v
               beta = v;
