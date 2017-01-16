@@ -1,2 +1,0 @@
-2017-01-14 01:59:50	MiniMaxPlayer	8	Jojo	55	Game over.
-2017-01-14 02:00:54	Jojo	46	MiniMaxPlayer	18	Game over.
