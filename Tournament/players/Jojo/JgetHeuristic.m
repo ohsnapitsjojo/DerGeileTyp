@@ -8,7 +8,7 @@ function [ h ] = JgetHeuristic( b, w, color )
 
  
     h = w(1)*hCoinParity( b,color ) + w(2)*hMobility(b,color) + ...
-        w(3)*hCornersCaptured(b, color) + w(4)*JhStability(b,color) ;
+        w(3)*hCornersCaptured(b, color) + w(4)*JhStability(b,color) +w(5)*hStability(b,color) ;
     
     if getWinner(b) == -1*color
         h = -101;

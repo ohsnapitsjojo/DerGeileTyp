@@ -14,7 +14,7 @@ aMap =[1000 -300 100 80 80 100 -300 1000;
     
     stabilityPlayer = sum(aMap(b==color));
     stabilityOpponent = sum(aMap(b==opponent));
-    totalStability = abs(stabilityPlayer + stabilityOpponent);
+    totalStability = abs(stabilityPlayer) + abs(stabilityOpponent);
     
     if totalStability ~= 0
       stability = 100 * (stabilityPlayer - stabilityOpponent)/totalStability;
