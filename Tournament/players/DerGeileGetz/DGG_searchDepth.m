@@ -1,4 +1,4 @@
-function [depth, weights] = DGT_searchDepth(time, numOfTurns)
+function [depth, weights] = DGG_searchDepth(time, numOfTurns)
 % Determine the search depth of the negamax algorithm and the weights for
 % the heuristic.
 % weights: CoinParity, Mobility, CornersCaptured, Stability/Heatmap

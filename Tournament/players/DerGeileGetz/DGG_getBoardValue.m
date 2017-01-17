@@ -1,4 +1,4 @@
-function v = DGT_getBoardValue(b, player, w)
+function v = DGG_getBoardValue(b, player, w)
 % Calculate heuristics to evaluate board
 
 opponent = -player;
@@ -12,8 +12,8 @@ sumOfAllStones = sum(b_square(:));
 h_coinParity = 100*(ratio/sumOfAllStones);
 
 %% Mobility
-[~, movesPlayer] = DGT_legalMoves(b, player);
-[~, movesOpponent] = DGT_legalMoves(b, opponent);
+[~, movesPlayer] = DGG_legalMoves(b, player);
+[~, movesOpponent] = DGG_legalMoves(b, opponent);
 numMovesPlayer = numel(movesPlayer);
 numMovesOpponent = numel(movesOpponent);   
 
