@@ -1,4 +1,4 @@
-function [b_valid, moves] = DGT_legalMoves(b, player)
+function [b_valid, moves] = DGG_legalMoves(b, player)
 % This function returns all valid moves, including the whole board after
 % execution of legal move
 
