@@ -1,0 +1,2 @@
+2017-01-18 01:50:22	Bjoern	47	Bernhard	17	Game over.
+2017-01-18 01:52:51	Bernhard	27	Bjoern	37	Game over.

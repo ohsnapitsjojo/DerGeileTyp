@@ -17,39 +17,39 @@ heatMap1 =[10000 -3000 100  80  80 100 -3000 10000;
        -3000 -5000 -45 -50 -50 -45 -5000 -3000;
        10000 -3000 100  80  80 100 -3000 10000];
 if(b(1,1)==color)
-    heatMap1(2,1)=7500;
-    heatMap1(1,2)=7500;
-    heatMap1(2,2)=8500;
+    heatMap1(2,1)=750;
+    heatMap1(1,2)=750;
+    heatMap1(2,2)=850;
 elseif(b(1,8)==color)
-    heatMap1(1,7)=7500;
-    heatMap1(2,8)=7500;
-    heatMap1(2,7)=8500;
+    heatMap1(1,7)=750;
+    heatMap1(2,8)=750;
+    heatMap1(2,7)=850;
 elseif(b(8,1)==color)
-    heatMap1(7,1)=7500;
-    heatMap1(8,2)=7500;
-    heatMap1(7,2)=8500;
+    heatMap1(7,1)=750;
+    heatMap1(8,2)=750;
+    heatMap1(7,2)=850;
 elseif(b(8,8)==color)
-    heatMap1(7,8)=7500;
-    heatMap1(8,7)=7500;
-    heatMap1(7,7)=8500;
+    heatMap1(7,8)=750;
+    heatMap1(8,7)=750;
+    heatMap1(7,7)=850;
 end
     
 if(b(1,1)==-color)
-    heatMap2(2,1)=7500;
-    heatMap2(1,2)=75000;
+    heatMap2(2,1)=750;
+    heatMap2(1,2)=750;
     heatMap2(2,2)=850;
 elseif(b(1,8)==-color)
-    heatMap2(1,7)=7500;
-    heatMap2(2,8)=7500;
-    heatMap2(2,7)=8500;
+    heatMap2(1,7)=750;
+    heatMap2(2,8)=750;
+    heatMap2(2,7)=850;
 elseif(b(8,1)==-color)
-    heatMap2(7,1)=7500;
-    heatMap2(8,2)=7500;
-    heatMap2(7,2)=8500;
+    heatMap2(7,1)=750;
+    heatMap2(8,2)=750;
+    heatMap2(7,2)=850;
 elseif(b(8,8)==-color)
     heatMap2(7,8)=750;
-    heatMap2(8,7)=7500;
-    heatMap2(7,7)=8500;
+    heatMap2(8,7)=750;
+    heatMap2(7,7)=850;
 end
     stabilityPlayer = sum(heatMap1(b==color));
     stabilityOpponent = sum(heatMap2(b==-color));

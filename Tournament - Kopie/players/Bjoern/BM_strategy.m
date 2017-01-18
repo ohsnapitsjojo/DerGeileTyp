@@ -11,11 +11,11 @@ function [ w,depth] = BM_strategy( b )
         w = [0 0 0 0 1];
     elseif 20 <= n && n  <30
         depth = 5;
-        w = [0 1 2 1 0];
+        w = [-1 2 3 1.5 1];
     % Mid
     elseif 30 <= n && n  <40
         depth = 6;
-        w = [0 1 2 1 0];
+        w = [0 2.5 3 1 1];
     % Killer Move
 %     elseif 35 <= n && n  <40
 %         depth = 6;
@@ -23,13 +23,13 @@ function [ w,depth] = BM_strategy( b )
     % Killer Move    
     elseif 40 <= n && n  <44
         depth = 7;
-        w = [0 1 2 1 0]; 
+        w = [1 2.5 3 1 1]; 
     elseif 44 <= n && n  <46
         depth = 8;
-        w = [1 1 2 1 0]; 
+        w = [1 2.5 3 1.5 1]; 
     elseif 46 <= n && n  <48
         depth = 9;
-        w = [1 1 2 1 1];
+        w = [1 2.5 3 1.5 1];
     % Killer Move
     elseif 48 <= n
         depth = 60-n;
@@ -41,7 +41,8 @@ function [ w,depth] = BM_strategy( b )
     if 48 <= n
         depth = 60-n;
         w = [1 0 0 0 0];
-    end     
+    end
+        
     % Normalisieren
     w = w/sum(w(:));
 end

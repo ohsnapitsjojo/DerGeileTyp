@@ -1,0 +1,756 @@
+PlayerF against Bjoern:
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 180.0 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 180.0 sec.):
+Restspiele in Datenbank: 49800
+Endsteine nach diesem Zug: 62
+ 
+Spiele Datenbankzug...
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     1     0     0     0     0     0
+     0     0    -1     1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 179.8 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+     0     0     0    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.8 sec.):
+Restspiele in Datenbank: 16283
+Endsteine nach diesem Zug: 62
+ 
+Spiele Datenbankzug...
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+     0     0     1    -1    -1     0     0     0
+     0     0     1     1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 179.5 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     0     1    -1    -1     0     0     0
+     0     0     1     1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.7 sec.):
+Restspiele in Datenbank: 1758
+Endsteine nach diesem Zug: 56
+ 
+Spiele Datenbankzug...
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     0     1     1     1     1     0     0
+     0     0     1     1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 178.3 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     0    -1     1     1     1     0     0
+     0     0    -1     1     1     0     0     0
+     0     0    -1     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.7 sec.):
+Restspiele in Datenbank: 58
+Endsteine nach diesem Zug: 42
+ 
+Spiele Datenbankzug...
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     0    -1     1     1     1     0     0
+     0     1     1     1     1     0     0     0
+     0     0    -1     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 177.2 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     0    -1     1     1     1     0     0
+     0    -1     1     1     1     0     0     0
+    -1     0    -1     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.7 sec.):
+
+Datenbankzug wird nicht gespielt: schlechte Omen.
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     1     1     1     1     1     0     0
+     0    -1     1     1     1     0     0     0
+    -1     0    -1     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 175.3 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     0     0     0     0
+     0     1     1    -1     1     1     0     0
+     0    -1     1    -1     1     0     0     0
+    -1     0    -1    -1     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0    -1    -1    -1     1     0     0     0
+     0     1     1     1     1     1     0     0
+     0    -1     1    -1     1     0     0     0
+    -1     0    -1    -1     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 172.1 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1     1     0     0     0
+     0    -1     1     1     1     1     0     0
+     0    -1    -1    -1     1     0     0     0
+    -1     0    -1    -1     0     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.2 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1     1     0     0     0
+     0    -1     1     1     1     1     0     0
+     0    -1    -1     1     1     0     0     0
+    -1     0    -1    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 170.5 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1     1    -1     1     0     0
+     0    -1    -1    -1     1     0     0     0
+    -1     0    -1    -1     1     0     0     0
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 179.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1     1    -1     1     0     0
+     0    -1    -1     1     1     0     0     0
+    -1     0    -1     1     1     0     0     0
+     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 168.9 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1    -1    -1     1     0     0
+     0    -1    -1     1    -1     0     0     0
+    -1     0    -1    -1    -1    -1     0     0
+     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 178.7 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1    -1    -1     1     0     0
+     0    -1    -1     1     1     1     0     0
+    -1     0    -1    -1     1    -1     0     0
+     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 165.6 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1    -1    -1    -1     0     0
+     0    -1    -1    -1    -1    -1    -1     0
+    -1     0    -1    -1     1    -1     0     0
+     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+PlayerF (1) to move (time left: 178.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1    -1    -1    -1     0     0
+     0    -1    -1    -1    -1    -1    -1     0
+    -1     1     1     1     1    -1     0     0
+     0     0     0     1     0     0     0     0
+     0     0     0     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 162.7 sec.):
+     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0
+    -1    -1    -1    -1    -1    -1     0     0
+     0    -1     1    -1    -1    -1     0     0
+     0    -1    -1    -1    -1    -1    -1     0
+    -1     1     1     1    -1    -1     0     0
+     0     0     0    -1     0     0     0     0
+     0     0    -1     0     0     0     0     0
+
+PlayerF (1) to move (time left: 178.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     0
+    -1    -1    -1     1    -1    -1     0     0
+     0    -1     1     1    -1    -1     0     0
+     0    -1    -1     1    -1    -1    -1     0
+    -1     1     1     1    -1    -1     0     0
+     0     0     0    -1     0     0     0     0
+     0     0    -1     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 160.2 sec.):
+     0     0    -1     0     0     0     0     0
+     0     0     0    -1     0     0     0     0
+    -1    -1    -1     1    -1    -1     0     0
+     0    -1     1     1    -1    -1     0     0
+     0    -1    -1     1    -1    -1    -1     0
+    -1     1     1     1    -1    -1     0     0
+     0     0     0    -1     0     0     0     0
+     0     0    -1     0     0     0     0     0
+
+PlayerF (1) to move (time left: 177.5 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0    -1     0     0     0     0     0
+     0     0     0    -1     0     0     0     0
+    -1    -1    -1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1    -1     1    -1     1    -1     0
+    -1     1     1     1     1     1     1     0
+     0     0     0    -1     0     0     0     0
+     0     0    -1     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 156.9 sec.):
+     0     0    -1     0     0     0     0     0
+     0     0     0    -1     0     0     0     0
+    -1    -1    -1     1    -1    -1     0     0
+     0    -1    -1     1     1    -1     0     0
+     0    -1    -1    -1    -1    -1    -1     0
+    -1     1     1     1    -1    -1     1     0
+     0     0     0    -1     0    -1     0     0
+     0     0    -1     0     0     0     0     0
+
+PlayerF (1) to move (time left: 176.6 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0    -1     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+    -1    -1     1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1     1    -1    -1    -1    -1     0
+    -1     1     1     1    -1    -1     1     0
+     0     0     0    -1     0    -1     0     0
+     0     0    -1     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 154.3 sec.):
+     0     0    -1     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+    -1    -1     1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1     1    -1    -1    -1    -1     0
+    -1     1     1     1    -1    -1    -1    -1
+     0     0     0    -1     0    -1     0     0
+     0     0    -1     0     0     0     0     0
+
+PlayerF (1) to move (time left: 176.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0    -1     0     0     0     0     0
+     0     0     1    -1     0     0     0     0
+    -1    -1     1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1     1    -1     1    -1    -1     0
+    -1     1     1     1     1    -1    -1    -1
+     0     0     0    -1     1    -1     0     0
+     0     0    -1     0     0     0     0     0
+
+Bjoern (-1) to move (time left: 148.7 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1     0     0     0     0
+    -1    -1     1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1     1    -1     1    -1    -1     0
+    -1     1     1     1     1    -1    -1    -1
+     0     0     0    -1     1    -1     0     0
+     0     0    -1     0     0     0     0     0
+
+PlayerF (1) to move (time left: 174.8 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 4, sort depth is 1
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1     0     0     0     0
+    -1    -1     1     1    -1    -1     0     0
+     0    -1     1     1     1    -1     0     0
+     0    -1     1    -1     1    -1    -1     0
+    -1     1     1     1     1    -1    -1    -1
+     0     0     0     1     1    -1     0     0
+     0     0    -1     1     0     0     0     0
+
+Bjoern (-1) to move (time left: 145.2 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1    -1    -1    -1     0     0
+     0    -1    -1     1     1    -1     0     0
+     0    -1     1    -1     1    -1    -1     0
+    -1     1     1     1     1    -1    -1    -1
+     0     0     0     1     1    -1     0     0
+     0     0    -1     1     0     0     0     0
+
+PlayerF (1) to move (time left: 173.8 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 5, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1    -1    -1    -1     0     0
+     0    -1    -1     1     1    -1     0     1
+     0    -1     1    -1     1    -1     1     0
+    -1     1     1     1     1     1    -1    -1
+     0     0     0     1     1    -1     0     0
+     0     0    -1     1     0     0     0     0
+
+Bjoern (-1) to move (time left: 134.0 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1    -1    -1    -1     0     0
+     0    -1    -1     1    -1    -1     0     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1    -1     1    -1     1    -1    -1
+     0     0     0    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+PlayerF (1) to move (time left: 172.5 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 5, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1    -1    -1    -1     0     0
+     0    -1    -1     1     1     1     1     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1    -1     1    -1     1    -1    -1
+     0     0     0    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+Bjoern (-1) to move (time left: 125.7 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1    -1    -1    -1     0    -1
+     0    -1    -1     1     1     1    -1     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1    -1     1    -1     1    -1    -1
+     0     0     0    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+PlayerF (1) to move (time left: 171.8 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 5, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1     0     0     0
+    -1    -1     1     1     1     1     1    -1
+     0    -1    -1     1     1     1     1     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1    -1     1    -1     1    -1    -1
+     0     0     0    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+Bjoern (-1) to move (time left: 121.7 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1     1     1     1    -1     1    -1
+     0    -1    -1     1     1    -1     1     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1    -1     1    -1     1    -1    -1
+     0     0     0    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+PlayerF (1) to move (time left: 170.8 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 6, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1     1     1     1    -1     1    -1
+     0    -1    -1     1     1    -1     1     1
+     0    -1     1    -1    -1    -1     1     0
+    -1     1     1     1    -1     1    -1    -1
+     0     0     1    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+Bjoern (-1) to move (time left: 119.0 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1     1     1     1    -1     1    -1
+     0    -1    -1     1     1    -1    -1    -1
+     0    -1     1    -1    -1    -1    -1    -1
+    -1     1     1     1    -1     1    -1    -1
+     0     0     1    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+PlayerF (1) to move (time left: 169.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 6, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1     1     1     1    -1     1    -1
+     1     1     1     1     1    -1    -1    -1
+     0     1     1    -1    -1    -1    -1    -1
+    -1     1     1     1    -1     1    -1    -1
+     0     0     1    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+Bjoern (-1) to move (time left: 115.5 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1    -1     1     1    -1     1    -1
+    -1    -1     1     1     1    -1    -1    -1
+    -1    -1    -1    -1    -1    -1    -1    -1
+    -1    -1     1     1    -1     1    -1    -1
+     0     0    -1    -1    -1    -1     0     0
+     0     0    -1    -1    -1     0     0     0
+
+PlayerF (1) to move (time left: 167.5 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 6, sort depth is 2
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1    -1     1     1    -1     1    -1
+    -1    -1     1     1     1    -1    -1    -1
+    -1    -1    -1     1    -1    -1    -1    -1
+    -1    -1     1     1     1     1    -1    -1
+     0     0    -1    -1    -1     1     0     0
+     0     0    -1    -1    -1     0     1     0
+
+Bjoern (-1) to move (time left: 112.2 sec.):
+     0     0    -1    -1     0     0     0     0
+     0     0    -1    -1    -1    -1     0     0
+    -1    -1    -1     1     1    -1     1    -1
+    -1    -1     1     1    -1    -1    -1    -1
+    -1    -1    -1    -1    -1    -1    -1    -1
+    -1    -1    -1     1     1     1    -1    -1
+     0    -1    -1    -1    -1     1     0     0
+     0     0    -1    -1    -1     0     1     0
+
+PlayerF (1) to move (time left: 165.5 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 6, sort depth is 2
+     0     0    -1    -1     0     1     0     0
+     0     0    -1    -1     1     1     0     0
+    -1    -1    -1     1     1     1     1    -1
+    -1    -1     1     1    -1     1    -1    -1
+    -1    -1    -1    -1    -1     1    -1    -1
+    -1    -1    -1     1     1     1    -1    -1
+     0    -1    -1    -1    -1     1     0     0
+     0     0    -1    -1    -1     0     1     0
+
+Bjoern (-1) to move (time left: 109.3 sec.):
+     0     0    -1    -1     0     1     0     0
+     0     0    -1    -1     1     1     0    -1
+    -1    -1    -1     1     1     1    -1    -1
+    -1    -1     1     1    -1    -1    -1    -1
+    -1    -1    -1    -1    -1     1    -1    -1
+    -1    -1    -1     1     1     1    -1    -1
+     0    -1    -1    -1    -1     1     0     0
+     0     0    -1    -1    -1     0     1     0
+
+PlayerF (1) to move (time left: 164.6 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 6, sort depth is 2
+     0     0    -1    -1     0     1     0     0
+     0     0    -1    -1     1     1     0    -1
+    -1    -1    -1     1     1     1    -1    -1
+    -1    -1     1     1     1    -1    -1    -1
+    -1    -1    -1     1    -1     1    -1    -1
+    -1    -1     1     1     1     1    -1    -1
+     0     1    -1    -1    -1     1     0     0
+     1     0    -1    -1    -1     0     1     0
+
+Bjoern (-1) to move (time left: 101.3 sec.):
+     0     0    -1    -1     0     1     0     0
+     0     0    -1    -1     1     1     0    -1
+    -1    -1    -1     1     1     1    -1    -1
+    -1    -1     1     1     1    -1    -1    -1
+    -1    -1    -1     1    -1     1    -1    -1
+    -1    -1     1     1     1     1    -1    -1
+    -1    -1    -1    -1    -1     1     0     0
+     1     0    -1    -1    -1     0     1     0
+
+PlayerF (1) to move (time left: 164.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 7, sort depth is 3
+     0     0    -1    -1     0     1     0     0
+     1     0    -1    -1     1     1     0    -1
+     1     1    -1     1     1     1    -1    -1
+     1    -1     1     1     1    -1    -1    -1
+     1    -1    -1     1    -1     1    -1    -1
+     1    -1     1     1     1     1    -1    -1
+     1    -1    -1    -1    -1     1     0     0
+     1     0    -1    -1    -1     0     1     0
+
+Bjoern (-1) to move (time left: 91.3 sec.):
+[Warning: Es wurde kein Zug zurückgegeben obwohl ein möglicher Zug existiert, nehme besten Zug anhand statischer Zuggewichtung] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Bjoern', 'D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m', 28)" style="font-weight:bold">Bjoern</a> (<a href="matlab: opentoline('D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m',28,0)">line 28</a>)
+  In tournament_main>play_game
+  In tournament_main] 
+     0     0    -1    -1     0     1     0     0
+     1     0    -1    -1     1     1     0    -1
+     1     1    -1     1     1     1    -1    -1
+     1    -1     1     1     1    -1    -1    -1
+     1    -1    -1     1    -1    -1    -1    -1
+     1    -1     1     1     1    -1    -1    -1
+     1    -1    -1    -1    -1    -1     0     0
+     1     0    -1    -1    -1    -1     1     0
+
+PlayerF (1) to move (time left: 163.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: search depth is 8, sort depth is 3
+     0     0    -1    -1     0     1     0     0
+     1     0    -1    -1     1     1     0    -1
+     1     1    -1     1     1     1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 91.1 sec.):
+[Warning: Es wurde kein Zug zurückgegeben obwohl ein möglicher Zug existiert, nehme besten Zug anhand statischer Zuggewichtung] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Bjoern', 'D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m', 28)" style="font-weight:bold">Bjoern</a> (<a href="matlab: opentoline('D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m',28,0)">line 28</a>)
+  In tournament_main>play_game
+  In tournament_main] 
+     0     0    -1    -1    -1     1     0     0
+     1     0    -1    -1    -1    -1     0    -1
+     1     1    -1     1    -1     1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 163.0 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 9
+Building game tree...
+     0     1     1     1     1     1     0     0
+     1     0     1    -1    -1    -1     0    -1
+     1     1    -1     1    -1     1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 91.0 sec.):
+[Warning: Es wurde kein Zug zurückgegeben obwohl ein möglicher Zug existiert, nehme besten Zug anhand statischer Zuggewichtung] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Bjoern', 'D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m', 28)" style="font-weight:bold">Bjoern</a> (<a href="matlab: opentoline('D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m',28,0)">line 28</a>)
+  In tournament_main>play_game
+  In tournament_main] 
+     0     1     1     1     1     1     0     0
+     1    -1    -1    -1    -1    -1     0    -1
+     1     1    -1     1    -1     1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 161.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 7
+Opponent move known.
+     1     1     1     1     1     1     0     0
+     1     1    -1    -1    -1    -1     0    -1
+     1     1     1     1    -1     1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 91.0 sec.):
+[Warning: Es wurde kein Zug zurückgegeben obwohl ein möglicher Zug existiert, nehme besten Zug anhand statischer Zuggewichtung] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Bjoern', 'D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m', 28)" style="font-weight:bold">Bjoern</a> (<a href="matlab: opentoline('D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m',28,0)">line 28</a>)
+  In tournament_main>play_game
+  In tournament_main] 
+     1     1     1     1     1     1     0     0
+     1     1    -1    -1    -1    -1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 161.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 5
+Opponent move known.
+     1     1     1     1     1     1     1     0
+     1     1    -1    -1    -1     1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 90.9 sec.):
+     1     1     1     1     1     1     1     0
+     1     1    -1    -1    -1     1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1     1    -1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 161.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 4
+Opponent move known.
+     1     1     1     1     1     1     1     1
+     1     1    -1    -1    -1     1     1    -1
+     1     1     1     1     1     1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 90.8 sec.):
+     1     1     1     1     1     1     1     1
+     1     1    -1    -1    -1     1     1    -1
+     1     1     1     1     1     1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1    -1     1    -1    -1    -1    -1
+     1     1     1     1     1    -1    -1    -1
+     1     1     1    -1    -1    -1     0     0
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 161.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 3
+Opponent move known.
+     1     1     1     1     1     1     1     1
+     1     1    -1    -1    -1     1     1    -1
+     1     1     1     1     1     1     1    -1
+     1     1     1     1     1    -1     1    -1
+     1     1    -1     1     1    -1     1    -1
+     1     1     1     1     1     1     1    -1
+     1     1     1     1     1     1     1     0
+     1     1     1     1     1     1     1     0
+
+Bjoern (-1) to move (time left: 90.7 sec.):
+[Warning: Es wurde kein Zug zurückgegeben obwohl ein möglicher Zug existiert, nehme besten Zug anhand statischer Zuggewichtung] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Bjoern', 'D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m', 28)" style="font-weight:bold">Bjoern</a> (<a href="matlab: opentoline('D:\Git\DerGeileTyp\Tournament - Kopie\players\Bjoern.m',28,0)">line 28</a>)
+  In tournament_main>play_game
+  In tournament_main] 
+     1     1     1     1     1     1     1     1
+     1     1    -1    -1    -1     1     1    -1
+     1     1     1     1     1     1     1    -1
+     1     1     1     1     1    -1     1    -1
+     1     1    -1     1     1    -1     1    -1
+     1     1     1     1     1     1    -1    -1
+     1     1     1     1     1     1     1    -1
+     1     1     1     1     1     1     1     0
+
+PlayerF (1) to move (time left: 161.4 sec.):
+Restspiele in Datenbank: 0
+ 
+PlayerF: perfect play, depth is 1
+Opponent move known.
+     1     1     1     1     1     1     1     1
+     1     1    -1    -1    -1     1     1     1
+     1     1     1     1     1     1     1     1
+     1     1     1     1     1    -1     1     1
+     1     1    -1     1     1    -1     1     1
+     1     1     1     1     1     1    -1     1
+     1     1     1     1     1     1     1     1
+     1     1     1     1     1     1     1     1
+
+Game over.
