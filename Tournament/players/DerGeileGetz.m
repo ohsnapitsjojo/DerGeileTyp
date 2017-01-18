@@ -41,7 +41,7 @@ function b_best = DerGeileGetz(b,player,timeLeft)
             end
             
             % negamax search
-            [~,b_best,numNodes] = DGG_negamax(b, player, -inf, inf, depth, weights, moves, timeLeft, tStart);
+            [~,b_best,numNodes] = DGG_negamax(b, player, -inf, inf, depth, weights, moves, maxTime, tStart);
             
             % always iterate at least two times
             if depth < 3

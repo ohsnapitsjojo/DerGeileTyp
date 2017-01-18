@@ -1,4 +1,4 @@
-function [v, b_best, numNodes] = DGG_negamax(b, player, alpha, beta, depth, weights, prior_moves, timeLeft, tStart)
+function [v, b_best, numNodes] = DGG_negamax(b, player, alpha, beta, depth, weights, prior_moves, maxTime, tStart)
 % This function implements a negamax algorithm with alpha-beta-pruning.
 
 %% init negamax
@@ -14,7 +14,7 @@ timeSpend = toc(tStart);
 numNodes = 0;
 
 %% if leaf calculate board value
-if depth==0 || timeSpend > 0.1 * timeLeft
+if depth==0 || timeSpend > maxTime
     numNodes = 1;
     v = DGG_getLeafValue(b, player, weights, prior_moves);
     return;
@@ -42,7 +42,7 @@ end
 for idx=1:numel(moves)
     
     % get value of deeper level
-    [v_new,~,numNodesChild] = DGG_negamax( b_new(:,:,idx_sorted(idx)), -player, -beta, -alpha, depth-1, weights, moves, timeLeft, tStart);
+    [v_new,~,numNodesChild] = DGG_negamax( b_new(:,:,idx_sorted(idx)), -player, -beta, -alpha, depth-1, weights, moves, maxTime, tStart);
     v_new = -v_new;
     numNodes = numNodes+numNodesChild;
     
