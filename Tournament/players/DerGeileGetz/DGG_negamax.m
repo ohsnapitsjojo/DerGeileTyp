@@ -1,4 +1,4 @@
-function [v, b_best] = DGG_negamax(b, player, alpha, beta, depth, weights)
+function [v, b_best, numNodes] = DGG_negamax(b, player, alpha, beta, depth, weights, prior_moves, timeLeft, tStart)
 % This function implements a negamax algorithm with alpha-beta-pruning.
 
 %% init negamax
@@ -8,9 +8,15 @@ v = -inf;
 % init b as best board
 b_best = b;
 
+% take time
+timeSpend = toc(tStart);
+
+numNodes = 0;
+
 %% if leaf calculate board value
-if depth==0 
-    v = DGG_getBoardValue(b, player, weights);
+if depth==0 || timeSpend > 0.1 * timeLeft
+    numNodes = 1;
+    v = DGG_getLeafValue(b, player, weights, prior_moves);
     return;
 end
 
@@ -19,18 +25,30 @@ end
 
 % if no more move possible, calculate board value
 if isempty(moves)  
-    v = DGG_getBoardValue(b, player, weights);
+    numNodes = 1;
+    v = DGG_getLeafValue(b, player, weights, prior_moves);
     return;
 end
 
+% sort children nodes
+v_nodes = zeros(1, numel(moves));
+for idx = 1:numel(moves)
+    v_nodes(idx) = DGG_getNodeValue(b_new(:,:,idx), player);
+end
+[~, idx_sorted] = sort(v_nodes, 'descend');
+
+
 %% build negamax search-tree
 for idx=1:numel(moves)
+    
     % get value of deeper level
-    v_new = -DGG_negamax( b_new(:,:,idx), -player, -beta, -alpha, depth-1, weights);
+    [v_new,~,numNodesChild] = DGG_negamax( b_new(:,:,idx_sorted(idx)), -player, -beta, -alpha, depth-1, weights, moves, timeLeft, tStart);
+    v_new = -v_new;
+    numNodes = numNodes+numNodesChild;
     
     % cut off with alpha-beta-pruning to improve efficiency
     if v_new > v 
-        b_best = b_new(:,:,idx);
+        b_best = b_new(:,:,idx_sorted(idx));
         if v_new > alpha
             alpha = v_new;
         end
