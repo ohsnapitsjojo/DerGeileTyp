@@ -1,5 +1,10 @@
 function [ b] =Bjoern( b,color,t)
 %auf Basis von Bernahrd
+global t1;
+global t0;
+t1=clock;
+
+
     addpath(['players' filesep 'Bjoern']);
     
     % Alle Möglichen Züge
@@ -38,6 +43,6 @@ function [ b] =Bjoern( b,color,t)
         move = possible(ind);
         b = BM_simulateMove(b,color,move);
     end
-
+t0=clock;
 end
 
