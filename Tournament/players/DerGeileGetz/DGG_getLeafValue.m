@@ -40,8 +40,11 @@ function v = DGG_getLeafValue(b, player, weights, moves)
     h_emptyPos = 1000*(numEmptyPosPlayer-numEmptyPosOpponent)/(numEmptyPosPlayer+numEmptyPosOpponent+2);
     h_emptyPosWeighted = 1000*(numEmptyPosPlayerWeighted-numEmptyPosOpponentWeighted)/(numEmptyPosPlayerWeighted+numEmptyPosOpponentWeighted+2);
     
-    h_potentialMobility = h_frontierDiscs + h_emptyPos + h_emptyPosWeighted;
-    
+    if numFrontierDiscsPlayer == 0 || numFrontierDiscsOpponent == 0
+        h_potentialMobility = 0;
+    else
+        h_potentialMobility = h_frontierDiscs + h_emptyPos + h_emptyPosWeighted;
+    end
 
 
 %% Corners Captured
