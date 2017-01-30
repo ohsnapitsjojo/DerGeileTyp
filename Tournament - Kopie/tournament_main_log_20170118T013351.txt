@@ -1,6 +1,0 @@
-2017-01-18 01:33:52	Bjoern	45	Bernhard	19	Game over.
-2017-01-18 01:36:25	Bernhard	27	Bjoern	37	Game over.
-2017-01-18 01:39:21	DerGeileGetz	29	Bernhard	35	Game over.
-2017-01-18 01:41:56	Bernhard	27	DerGeileGetz	37	Game over.
-2017-01-18 01:43:36	DerGeileGetz	31	Bjoern	33	Game over.
-2017-01-18 01:46:21	Bjoern	14	DerGeileGetz	50	Game over.
